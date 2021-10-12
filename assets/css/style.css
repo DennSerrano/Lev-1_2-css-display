@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background: url("../img/sika-deer-5772242_960_720.webp") center/cover no-repeat;
+    height:100vh;
+}
+
+header ul{
+    text-align:right;
+    padding: 20px;
+    background: grey;
+    opacity: 0.8;
+    
+}
+header ul li{
+    display: inline-block;
+    color:white;
+    margin-right: 1vw;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+header ul li a:hover{
+    color: black;
+}
